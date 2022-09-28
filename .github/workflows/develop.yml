@@ -1,0 +1,12 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  log-the-inputs:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          gh extension install otiai10/gh-dependents
+          gh dependents conduitio/conduit-connector-sdk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

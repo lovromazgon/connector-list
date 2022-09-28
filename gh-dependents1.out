@@ -1,0 +1,267 @@
+{
+  "source": {
+    "user": "conduitio",
+    "repo": "conduit-connector-sdk",
+    "url": "https://github.com/conduitio/conduit-connector-sdk"
+  },
+  "query": {
+    "page":  null,
+    "after": null
+  },
+  "dependents": [
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-clickhouse",
+      "url": "https://github.com/conduitio-labs/conduit-connector-clickhouse",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-airtable",
+      "url": "https://github.com/conduitio-labs/conduit-connector-airtable",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-hubspot",
+      "url": "https://github.com/conduitio-labs/conduit-connector-hubspot",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-gcp-pubsub",
+      "url": "https://github.com/conduitio-labs/conduit-connector-gcp-pubsub",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-bigquery",
+      "url": "https://github.com/conduitio-labs/conduit-connector-bigquery",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "hariso",
+      "repo": "conduit-connector-benthos",
+      "url": "https://github.com/hariso/conduit-connector-benthos",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-materialize",
+      "url": "https://github.com/conduitio-labs/conduit-connector-materialize",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-nats-jetstream",
+      "url": "https://github.com/conduitio-labs/conduit-connector-nats-jetstream",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-nats-pubsub",
+      "url": "https://github.com/conduitio-labs/conduit-connector-nats-pubsub",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "ConduitIO",
+      "repo": "streaming-benchmarks",
+      "url": "https://github.com/ConduitIO/streaming-benchmarks",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-stripe",
+      "url": "https://github.com/conduitio-labs/conduit-connector-stripe",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-snowflake",
+      "url": "https://github.com/conduitio-labs/conduit-connector-snowflake",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-oracle",
+      "url": "https://github.com/conduitio-labs/conduit-connector-oracle",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-vitess",
+      "url": "https://github.com/conduitio-labs/conduit-connector-vitess",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-azure-storage",
+      "url": "https://github.com/conduitio-labs/conduit-connector-azure-storage",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-zendesk",
+      "url": "https://github.com/conduitio-labs/conduit-connector-zendesk",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-google-sheets",
+      "url": "https://github.com/conduitio-labs/conduit-connector-google-sheets",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-redis",
+      "url": "https://github.com/conduitio-labs/conduit-connector-redis",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-google-cloudstorage",
+      "url": "https://github.com/conduitio-labs/conduit-connector-google-cloudstorage",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-salesforce",
+      "url": "https://github.com/conduitio-labs/conduit-connector-salesforce",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-elasticsearch",
+      "url": "https://github.com/conduitio-labs/conduit-connector-elasticsearch",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "WeirdMagician",
+      "repo": "conduit-connector-google-cloudstorage",
+      "url": "https://github.com/WeirdMagician/conduit-connector-google-cloudstorage",
+      "stars": 1,
+      "forks": 1
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-marketo",
+      "url": "https://github.com/conduitio-labs/conduit-connector-marketo",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "user": "neha-Gupta1",
+      "repo": "conduit-connector-bigquery",
+      "url": "https://github.com/neha-Gupta1/conduit-connector-bigquery",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "ConduitIO",
+      "repo": "conduit",
+      "url": "https://github.com/ConduitIO/conduit",
+      "stars": 215,
+      "forks": 24
+    },
+    {
+      "user": "neovintage",
+      "repo": "conduit-connector-redis",
+      "url": "https://github.com/neovintage/conduit-connector-redis",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "ahamidi",
+      "repo": "conduit-connector-template",
+      "url": "https://github.com/ahamidi/conduit-connector-template",
+      "stars": 1,
+      "forks": 2
+    },
+    {
+      "user": "ConduitIO",
+      "repo": "conduit-connector-postgres",
+      "url": "https://github.com/ConduitIO/conduit-connector-postgres",
+      "stars": 2,
+      "forks": 2
+    },
+    {
+      "user": "conduitio-labs",
+      "repo": "conduit-connector-algolia",
+      "url": "https://github.com/conduitio-labs/conduit-connector-algolia",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "user": "ahamidi",
+      "repo": "conduit-connector-redis",
+      "url": "https://github.com/ahamidi/conduit-connector-redis",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "user": "ahamidi",
+      "repo": "conduit-connector-neo4j",
+      "url": "https://github.com/ahamidi/conduit-connector-neo4j",
+      "stars": 2,
+      "forks": 0
+    },
+    {
+      "user": "ConduitIO",
+      "repo": "conduit-connector-kafka",
+      "url": "https://github.com/ConduitIO/conduit-connector-kafka",
+      "stars": 2,
+      "forks": 2
+    },
+    {
+      "user": "ConduitIO",
+      "repo": "conduit-connector-s3",
+      "url": "https://github.com/ConduitIO/conduit-connector-s3",
+      "stars": 5,
+      "forks": 0
+    },
+    {
+      "user": "ConduitIO",
+      "repo": "conduit-connector-generator",
+      "url": "https://github.com/ConduitIO/conduit-connector-generator",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "user": "ConduitIO",
+      "repo": "conduit-connector-file",
+      "url": "https://github.com/ConduitIO/conduit-connector-file",
+      "stars": 1,
+      "forks": 0
+    }
+  ],
+  "pages": [
+    {
+      "url":  "https://github.com/conduitio/conduit-connector-sdk/network/dependents",
+      "next": "MTk5NjAxODEzMTc"
+    },
+    {
+      "url":  "https://github.com/conduitio/conduit-connector-sdk/network/dependents?dependents_after=MTk5NjAxODEzMTc"
+    }
+  ]
+}
