@@ -17,9 +17,42 @@ function main ()
 
     fetchRepoInfo $repo $repo/info.json
     fetchReleaseList $repo $repo/releases.json
-    # loop through releases
+    # loop through releases and fetch assets
+
+    # TODO loop through releases
+    #   TODO fetch assets and store in $repo/assets/$tagName.json
+
+    # TODO combine $repo/assets/* and $repo/releases.json into connector.json
+    # TODO combine info.json and connector.json into connector.json
   done < repos.list
+  # TODO combine */connector.json into connectors.json
 }
+
+# // connectors.json
+# [
+#   {
+#     // info.json
+#     "nameWithOwner":"foo",
+#     "description":"foo",
+#     "createdAt":"foo",
+#     "url":"http://foo",
+#     "stargazerCount":123,
+#     "forkCount":123,
+#     // releases.json
+#     "releases": [
+#       {
+#         "tagName":"v0.1.0",
+#         "type":"Latest",
+#         // assets/v0.1.0.json
+#         "assets": [
+#           {
+#             // TODO
+#           }
+#         ]
+#       }
+#     ]
+#   }
+# ]
 
 #---------------------------------------------------------------------------------------------------
 # Fetch dependents
@@ -77,7 +110,7 @@ function fetchReleaseList ()
   local -r REPO=${1}
   local -r FILE_OUT=${2}
 
-  # get basic repo info
+  # get list of releases and transform it into json
   gh release list --repo $REPO | \
     jq --raw-input --slurp 'split("\n") | map(split("\t")) | .[0:-1] | map( { "tagName": .[0], "type": .[1] } )' \
     > $FILE_OUT
@@ -100,10 +133,9 @@ function gh ()
 
   # if we don't have at least 10 requests left, wait until reset
   if [ `jq ".remaining" <<< $RATE_LIMIT` -lt 10 ]; then
-    # fetch reset from API and figure out sleep time
-    local RESET=`jq ".rate.reset" <<< $RATE_LIMIT`
-    local NOW=`date +%s`
-    exit 2
+    # take reset time from API response and figure out sleep time
+    local -r RESET=`jq ".rate.reset" <<< $RATE_LIMIT`
+    local -r NOW=`date +%s`
     # sleep until reset
     sleep "$(($RESET-$NOW+1))"
     # refresh rate
@@ -116,11 +148,3 @@ function gh ()
 
 # run script
 main
-
-# # for each release fetch assets
-# for f in $(find releases -type file -name '*'); do
-#   basename $f
-#   echo $f
-#   cat $f
-# done
-
