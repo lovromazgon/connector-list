@@ -1,4 +1,15 @@
 [
   "ConduitIO/conduit",
-  "ConduitIO/streaming-benchmarks"
+  "ConduitIO/streaming-benchmarks",
+  "ConduitIO/conduit-connector-template",
+
+  "ahamidi/conduit-connector-template",
+  "gopherslab/conduit-connector-google-sheets",
+  "gopherslab/conduit-connector-zendesk",
+  "gopherslab/conduit-connector-redis",
+  "hariso/awesomeProject",
+  "neha-Gupta1/conduit-connector-bigquery",
+  "neovintage/conduit-connector-redis",
+  "tsinghgill/conduit-connector-notion",
+  "WeirdMagician/conduit-connector-google-cloudstorage"
 ]
