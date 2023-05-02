@@ -197,7 +197,7 @@ function buildConnectorInfo ()
   local -r RELEASES_JSON=${2}
   local -r FILE_OUT=${3}
 
-  RELEASE_FIELDS="tag_name, name, draft, prerelease, published_at, html_url, assets"
+  RELEASE_FIELDS="tag_name, name, body, draft, prerelease, published_at, html_url, assets"
   ASSET_FIELDS="name, os, arch, content_type, browser_download_url, created_at, updated_at, download_count, size"
 
   jq -s ".[0] + {releases: .[1]} | .releases |= map({$RELEASE_FIELDS}) | .releases[].assets |= map({$ASSET_FIELDS})" \
