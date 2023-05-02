@@ -218,7 +218,7 @@ function gh ()
   fi
 
   # decrease remeaning counter
-  RATE_LIMIT=$(jq ".remaining=.remaining-1 | .used=.used+1" <<< $RATE_LIMIT)
+  RATE_LIMIT=$(jq ".remaining=.remaining-1 | .used=.used+1" <<< "$RATE_LIMIT")
 
   # if we don't have at least 10 requests left, wait until reset
   if [ "$(jq ".remaining" <<< "$RATE_LIMIT")" -lt 10 ]; then
