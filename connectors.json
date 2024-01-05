@@ -1,10 +1,10 @@
 [
   {
     "createdAt": "2022-03-07T16:06:24Z",
-    "description": "Conduit connector for PostgreSQL.",
+    "description": "Conduit connector for PostgreSQL",
     "forkCount": 4,
     "nameWithOwner": "ConduitIO/conduit-connector-postgres",
-    "stargazerCount": 5,
+    "stargazerCount": 6,
     "url": "https://github.com/ConduitIO/conduit-connector-postgres",
     "releases": [
       {
@@ -123,7 +123,7 @@
             "browser_download_url": "https://github.com/ConduitIO/conduit-connector-postgres/releases/download/v0.4.0/conduit-connector-postgres_0.4.0_Darwin_arm64.tar.gz",
             "created_at": "2023-04-11T12:35:22Z",
             "updated_at": "2023-04-11T12:35:22Z",
-            "download_count": 3,
+            "download_count": 4,
             "size": 5555159
           },
           {
@@ -308,7 +308,7 @@
   },
   {
     "createdAt": "2022-02-17T14:40:01Z",
-    "description": "Conduit connector for AWS S3",
+    "description": "Conduit connector for Amazon S3",
     "forkCount": 2,
     "nameWithOwner": "ConduitIO/conduit-connector-s3",
     "stargazerCount": 7,
@@ -1120,7 +1120,7 @@
   },
   {
     "createdAt": "2022-02-22T13:02:13Z",
-    "description": "Provides a source and a destination Kafka connector, for Conduit.",
+    "description": "Conduit connector for Apache Kafka",
     "forkCount": 2,
     "nameWithOwner": "ConduitIO/conduit-connector-kafka",
     "stargazerCount": 5,
@@ -1154,7 +1154,7 @@
             "browser_download_url": "https://github.com/ConduitIO/conduit-connector-kafka/releases/download/v0.7.0/conduit-connector-kafka_0.7.0_Darwin_x86_64.tar.gz",
             "created_at": "2023-11-09T15:27:43Z",
             "updated_at": "2023-11-09T15:27:44Z",
-            "download_count": 1,
+            "download_count": 2,
             "size": 6558933
           },
           {
@@ -1823,7 +1823,7 @@
   },
   {
     "createdAt": "2022-02-22T16:00:27Z",
-    "description": "A Conduit connector able to generate sample records.",
+    "description": "Conduit connector able to generate sample records",
     "forkCount": 1,
     "nameWithOwner": "ConduitIO/conduit-connector-generator",
     "stargazerCount": 2,
@@ -2716,7 +2716,7 @@
   },
   {
     "createdAt": "2023-03-02T08:54:07Z",
-    "description": "A Conduit connector for Databricks",
+    "description": "Conduit connector for Databricks",
     "forkCount": 0,
     "nameWithOwner": "conduitio-labs/conduit-connector-databricks",
     "stargazerCount": 0,
@@ -2725,7 +2725,7 @@
   },
   {
     "createdAt": "2022-12-22T16:59:42Z",
-    "description": "A Conduit connector that causes chaos",
+    "description": "Conduit connector that causes chaos (for development purposes)",
     "forkCount": 0,
     "nameWithOwner": "conduitio-labs/conduit-connector-chaos",
     "stargazerCount": 0,
@@ -2834,7 +2834,7 @@
   },
   {
     "createdAt": "2022-03-07T15:49:35Z",
-    "description": "Conduit connector for writing to Algolia",
+    "description": "Conduit connector for Algolia",
     "forkCount": 0,
     "nameWithOwner": "conduitio-labs/conduit-connector-algolia",
     "stargazerCount": 1,
@@ -2943,7 +2943,7 @@
   },
   {
     "createdAt": "2022-09-02T14:54:26Z",
-    "description": "Conduit destination connector for Materialize",
+    "description": "Conduit connector for Materialize",
     "forkCount": 0,
     "nameWithOwner": "conduitio-labs/conduit-connector-materialize",
     "stargazerCount": 0,
@@ -3624,7 +3624,7 @@
   },
   {
     "createdAt": "2023-01-03T12:31:23Z",
-    "description": "Conduit connector for SAP HANA database",
+    "description": "Conduit connector for SAP HANA",
     "forkCount": 1,
     "nameWithOwner": "conduitio-labs/conduit-connector-sap-hana",
     "stargazerCount": 0,
@@ -3634,7 +3634,7 @@
   {
     "createdAt": "2022-12-07T08:57:01Z",
     "description": "Conduit connector for Notion",
-    "forkCount": 1,
+    "forkCount": 0,
     "nameWithOwner": "conduitio-labs/conduit-connector-notion",
     "stargazerCount": 0,
     "url": "https://github.com/conduitio-labs/conduit-connector-notion",
@@ -4039,7 +4039,7 @@
   },
   {
     "createdAt": "2023-02-28T11:02:34Z",
-    "description": "destination connector for cassandra",
+    "description": "Conduit connector for Apache Cassandra",
     "forkCount": 0,
     "nameWithOwner": "conduitio-labs/conduit-connector-cassandra",
     "stargazerCount": 0,
@@ -4266,10 +4266,10 @@
   },
   {
     "createdAt": "2022-09-13T10:21:29Z",
-    "description": "Conduit wrappers for Benthos inputs, processors and outputs",
+    "description": "Conduit connector wrapping Benthos inputs and outputs",
     "forkCount": 0,
     "nameWithOwner": "conduitio-labs/conduit-connector-benthos",
-    "stargazerCount": 0,
+    "stargazerCount": 1,
     "url": "https://github.com/conduitio-labs/conduit-connector-benthos",
     "releases": []
   },
@@ -4384,7 +4384,7 @@
   },
   {
     "createdAt": "2022-06-02T15:41:26Z",
-    "description": "Conduit connector for NATS",
+    "description": "Conduit connector for NATS JetStream",
     "forkCount": 1,
     "nameWithOwner": "conduitio-labs/conduit-connector-nats-jetstream",
     "stargazerCount": 0,
@@ -4928,7 +4928,7 @@
   },
   {
     "createdAt": "2023-01-25T17:53:38Z",
-    "description": "Conduit connector for Azure Cosmos DB for NoSQL",
+    "description": "Conduit connector for Azure Cosmos DB",
     "forkCount": 0,
     "nameWithOwner": "conduitio-labs/conduit-connector-cosmos-nosql",
     "stargazerCount": 0,
@@ -5164,7 +5164,7 @@
   },
   {
     "createdAt": "2022-06-09T20:20:06Z",
-    "description": "Plugin for conduit",
+    "description": "Conduit connector for Firebolt",
     "forkCount": 0,
     "nameWithOwner": "conduitio-labs/conduit-connector-firebolt",
     "stargazerCount": 0,
@@ -5173,7 +5173,7 @@
   },
   {
     "createdAt": "2022-06-02T15:17:41Z",
-    "description": "Conduit connector for GCP Pub/Sub and Pub/Sub Lite",
+    "description": "Conduit connector for Google Cloud Pub/Sub",
     "forkCount": 0,
     "nameWithOwner": "conduitio-labs/conduit-connector-gcp-pubsub",
     "stargazerCount": 0,
@@ -5854,7 +5854,7 @@
   },
   {
     "createdAt": "2022-04-27T19:41:35Z",
-    "description": "Conduit connector for Azure Storage",
+    "description": "Conduit connector for Azure Blob Storage",
     "forkCount": 0,
     "nameWithOwner": "conduitio-labs/conduit-connector-azure-storage",
     "stargazerCount": 0,
